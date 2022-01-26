@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    /* margin: 0 auto; */
+}
+
+body {
+    color: #94618E;
+    background-color: #F4DECB;
+    font-size: 1.5rem;
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}
+
+.title {
+    text-align: center;
+    padding-top: 3.5em;
+    font-size: 3.5rem;
+    color: #49274A;
+}
+
+.colors {
+    padding-top: 4em;
+}
+
+.color-title {
+    padding-top: 2em;
+    font-weight: 600;
+}
+
+label {
+    display: block;
+    font-size: 1.25rem;
+}
+
+input {
+    margin-bottom: 1.75em;
+}
+
+input[type="text"] {
+    padding: .3em .625em;
+    border-radius: 15%;
+    border: none;
+}
+
+.box {
+    height: 6.25em;
+    width: 100%;
+    background-color: #49274A;
+    margin-bottom: 1.5em;
+}
+
+.toggle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.toggleText {
+    font-size: 18px;
+}
+
+.toggle-btn {
+    height: 1.8em;
+    width: 3.6em;
+    background-color: #49274A;
+    border-radius: 1.8em;
+    padding: 3px;
+    margin: 0 10px;
+}
+
+.inner-circle {
+    width: 1.6em;
+    height: 1.6em;
+    border-radius: 50%;
+    background-color: #f8eee7;
+    transition: all 250ms;
+}
+
+.toggle-btn.toggled > .inner-circle {
+    transform: translateX(30px);
+    background-color: #f8eee7;
+}
+
+.unselected {
+    opacity: .25;
+}
